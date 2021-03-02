@@ -1,0 +1,41 @@
+.items, #collasible-nav-dropdown
+{
+  color: #ff3333!important;
+  padding-top: 5px !important;
+ font-size: 20px !important;
+}
+
+.menuBar
+{
+    height: 70px !important;
+
+}
+
+.optionsBar
+{
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0  !important;
+    z-index: 100;
+}
+
+.brandName
+{
+    font-size: 40px !important;
+    padding-right: 450px;
+    padding-left: 130px;
+}
+
+@media screen and (max-width: 1200px) {
+    .brandName
+    {
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+    .menuBar
+    {
+        height: 250px !important;
+    }
+  }
+
+  
